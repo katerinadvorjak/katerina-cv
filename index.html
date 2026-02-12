@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="uk">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,53 +8,55 @@
 </head>
 <body>
   <header class="hero">
-    <div class="container">
-      <p class="badge">Resume</p>
-      <h1>Katerina Dvorzhak</h1>
-      <p class="role">Junior Fullstack Developer</p>
-      <p class="meta">Kyiv, Ukraine · +380730707033 · katerinadvorjak@gmail.com</p>
-      <p class="meta"><a href="https://www.linkedin.com/in/katerina-dvorjak-9845141ba/" target="_blank">LinkedIn</a> · <a href="https://github.com/katerinadvorjak" target="_blank">GitHub</a></p>
-      <p class="meta"><strong>EN</strong> · <a href="uk.html">UK</a></p>
+    <div class="container hero-inner">
+      <div>
+        <p class="badge">РЕЗЮМЕ</p>
+        <h1>Katerina Dvorzhak</h1>
+        <p class="role">Junior Fullstack Developer</p>
+      </div>
+      <div class="contacts">
+        <p>📍 Київ, Україна</p>
+        <p>📞 +380730707033</p>
+        <p>📧 <a href="mailto:katerinadvorjak@gmail.com">katerinadvorjak@gmail.com</a></p>
+        <p>💼 <a href="https://www.linkedin.com/in/katerina-dvorjak-9845141ba/" target="_blank" rel="noopener">LinkedIn</a></p>
+        <p>💻 <a href="https://github.com/katerinadvorjak" target="_blank" rel="noopener">GitHub</a></p>
+      </div>
     </div>
   </header>
 
-  <main class="container">
-    <section>
-      <h2>Summary</h2>
-      <p>Junior Fullstack Developer with hands-on commercial experience in one project. Comfortable with Vue 3 on frontend and Laravel on backend. Looking for a Junior role where I can grow faster with mentorship and real product задачами.</p>
+  <main class="container layout">
+    <section class="card summary">
+      <h2>Коротко про мене</h2>
+      <p>Junior Fullstack Developer з невеликим комерційним досвідом в одному проєкті. Працюю з Vue 3 на фронтенді та Laravel на бекенді. Шукаю Junior-позицію, де зможу швидко рости через менторство та реальні продуктові задачі.</p>
     </section>
 
-    <section>
-      <h2>Experience</h2>
-      <article class="card">
-        <h3>Junior Fullstack Developer</h3>
-        <p class="muted">Project: E-commerce Web Application / Internal Management Tool</p>
-        <ul>
-          <li>Implemented simple frontend pages and components in Vue 3.</li>
-          <li>Added and maintained REST API endpoints in Laravel.</li>
-          <li>Worked with MySQL for basic CRUD and simple queries.</li>
-          <li>Used Git daily, tested endpoints in Postman, and fixed bugs from QA/team feedback.</li>
-          <li>Participated in code reviews and Agile team routines.</li>
-        </ul>
-      </article>
+    <section class="card exp">
+      <h2>Досвід</h2>
+      <h3>Junior Fullstack Developer</h3>
+      <p class="muted">Проєкт: E-commerce Web Application / Internal Management Tool</p>
+      <ul>
+        <li>Реалізовувала прості сторінки та компоненти на Vue 3.</li>
+        <li>Додавала та підтримувала REST API ендпойнти на Laravel.</li>
+        <li>Працювала з MySQL: базовий CRUD і прості запити.</li>
+        <li>Щоденно використовувала Git, тестувала API в Postman, виправляла баги після QA/фідбеку команди.</li>
+        <li>Брала участь у code review та Agile-рутинах команди.</li>
+      </ul>
     </section>
 
-    <section>
-      <h2>Skills</h2>
-      <div class="grid">
-        <div class="card"><h3>Frontend</h3><p>Vue 3, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS</p></div>
-        <div class="card"><h3>Backend</h3><p>Laravel, PHP, basics of Node.js/Express</p></div>
-        <div class="card"><h3>Database</h3><p>MySQL, basic MongoDB</p></div>
-        <div class="card"><h3>Tools</h3><p>Git, GitHub, Postman, basic Docker, Agile/Scrum</p></div>
+    <section class="card skills">
+      <h2>Навички</h2>
+      <div class="skill-block">
+        <p><strong>Frontend:</strong> Vue 3, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS</p>
+        <p><strong>Backend:</strong> Laravel, PHP, базово Node.js/Express</p>
+        <p><strong>Бази даних:</strong> MySQL, базово MongoDB</p>
+        <p><strong>Інструменти:</strong> Git, GitHub, Postman, базово Docker, Agile/Scrum</p>
       </div>
     </section>
 
-    <section>
-      <h2>Education</h2>
-      <article class="card">
-        <h3>National Aviation University (NAU), Kyiv</h3>
-        <p>Bachelor’s Degree in Security of Information and Communication Systems</p>
-      </article>
+    <section class="card edu">
+      <h2>Освіта</h2>
+      <h3>Національний авіаційний університет (НАУ), Київ</h3>
+      <p>Бакалавр — Безпека інформаційних і комунікаційних систем</p>
     </section>
   </main>
 </body>
